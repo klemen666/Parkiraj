@@ -17,6 +17,8 @@ import si.uni_lj.fe.seminarTK.dao.Schema_SQL;
 @Path("/v3/inventory")
 public class V3_rest {
 	
+	//Test GitHub
+	
 	@POST
 	@Consumes({MediaType.APPLICATION_FORM_URLENCODED,MediaType.APPLICATION_JSON})
 	@Produces(MediaType.APPLICATION_JSON)
